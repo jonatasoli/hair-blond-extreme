@@ -1,0 +1,50 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hair-store-front
+  namespace: production
+  labels:
+    name: hair-store-front
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      version: "latest"
+      app: "hair-store-front"
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  minReadySeconds: 60
+  template:
+    metadata:
+      labels:
+        version: "latest"
+        app: "hair-store-front"
+    spec:
+      containers:
+        - name: store-front
+          image: jonatasoli/hair-store-front:latest
+          imagePullPolicy: Always
+          command: ["npm", "run", "start"]
+          resources:
+            limits:
+              cpu: 500m
+              memory: 512Mi
+            requests:
+              cpu: 150m
+              memory: 128Mi
+          # livenessProbe:
+          #  httpGet:
+          #    path: /users/session
+          #    port: 13000
+          #    httpHeaders:
+          #      - name: Custom-Header
+          #        value: Awesome
+          #  initialDelaySeconds: 30
+          #  periodSeconds: 15
+          ports:
+            - containerPort: 3000
+      imagePullSecrets:
+      - name: dockerhub-registry

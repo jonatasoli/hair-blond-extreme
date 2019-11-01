@@ -1,6 +1,6 @@
 # hair-blond-extreme
 
-> Blond Extreme Pages
+> Blong Extreme Landing Pages
 
 ## Build Setup
 
