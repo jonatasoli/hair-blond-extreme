@@ -16,6 +16,10 @@ export default {
     SalesLandingHeader,
     SalesLandingContent,
     SalesLandingFooter
+  },
+
+  mounted () {
+    this.$fb.enable()
   }
 }
 </script>

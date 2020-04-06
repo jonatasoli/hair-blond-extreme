@@ -6,11 +6,12 @@
     <h3>O melhor e mais completo curso de loiros do mundo!</h3>
     <h4>El mejor y mas completo curso de rubios del mundo!</h4>
     <h5>The best and most complete blond course in the world!</h5>
-    <div>
+    <div class="video">
       <div class="vimeo-formatter">
         <iframe
-          src="https://player.vimeo.com/video/338565462?title=0&byline=0&portrait=0"
-          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          src="https://player.vimeo.com/video/371866574"
+          width="640"
+          height="360"
           frameborder="0"
           allow="autoplay; fullscreen"
           allowfullscreen
@@ -19,7 +20,7 @@
       <script src="https://player.vimeo.com/api/player.js" />
     </div>
     <div class="align__button">
-      <button class="sales__button" @click="redirectSales">
+      <button type="button" class="sales__button" @click="redirectSales">
         <strong style="font-size: 2rem; color: #F5F5F5">Sim quero garantir minha vaga!</strong>
         <br>
         <strong style="font-size: 1.75rem; color: #F5F5F5">Si, quiero assegurar mi lugar!</strong>
@@ -54,7 +55,7 @@ export default {
   name: 'Header',
   methods: {
     redirectSales () {
-      alert('Hello ')
+      window.location = 'https://pay.hotmart.com/R11503126C'
     }
   }
 }
@@ -66,8 +67,6 @@ export default {
     background-color: black;
     color: #ffbb0e;
     font-family: inherit;
-    position: relative;
-    left: 0;
     z-index: -1;
     width: 100%;
     height: 100%;
@@ -106,6 +105,10 @@ export default {
     margin: 1rem;
   }
 
+  iframe {
+    height: 480px;
+  }
+
   .p__espanhol{
     font-size: 1.75rem;
     text-align: center;
@@ -124,9 +127,11 @@ export default {
   }
 
   .vimeo-formatter {
-    padding: 56.25% 0 0 0;
-    position: relative;
-    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
   .sales__button {
@@ -145,5 +150,23 @@ export default {
 
   .header__padding {
     padding: 3rem 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    .video {
+      margin-bottom: 1rem;
+      width: 100%;
+      height: 100%;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+    button {
+      width: 100%;
+      height: 100%;
+    }
   }
 </style>

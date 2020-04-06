@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    image: jonatasoli/hair-blond-landing:latest
+    #command: ["npm", "run", "start"]
+    ports:
+      - 3000:3000
+    container_name: hairlanding
+    tty: true
+    expose:
+      - "3000"

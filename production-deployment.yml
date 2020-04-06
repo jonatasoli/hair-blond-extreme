@@ -1,16 +1,16 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: hair-store-front
+  name: blond-landing
   namespace: production
   labels:
-    name: hair-store-front
+    name: blond-landing
 spec:
   replicas: 2
   selector:
     matchLabels:
       version: "latest"
-      app: "hair-store-front"
+      app: "blond-landing"
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -21,11 +21,11 @@ spec:
     metadata:
       labels:
         version: "latest"
-        app: "hair-store-front"
+        app: "blond-landing"
     spec:
       containers:
-        - name: store-front
-          image: jonatasoli/hair-store-front:latest
+        - name: blond-landing
+          image: jonatasoli/hair-blond-landing:latest
           imagePullPolicy: Always
           command: ["npm", "run", "start"]
           resources:
@@ -47,4 +47,4 @@ spec:
           ports:
             - containerPort: 3000
       imagePullSecrets:
-      - name: dockerhub-registry
+      - name: regcred
