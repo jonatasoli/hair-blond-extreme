@@ -49,8 +49,8 @@ export default {
   ],
   facebook: {
     /* module options */
-    track: 'PageView',
-    pixelId: '466578437429136',
+    track: ['PageView', 'CompleteRegistration'],
+    pixelId: '3424835757531796',
     disabled: false
   },
   /*
