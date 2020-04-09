@@ -294,6 +294,16 @@
         </div>
       </div>
       <div class="number">
+        <p> - </p>
+      </div>
+      <div class="wrapper">
+        <div class="col__list">
+          <p><b>MAIS DE 20 MÓDULOS</b></p>
+          <p><b>MÁS DE 20 MÓDULOS</b></p>
+          <p><b>MORE THAN 20 MODULES</b></p>
+        </div>
+      </div>
+      <div class="number">
         <p>0</p>
       </div>
       <div class="wrapper">

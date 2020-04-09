@@ -79,11 +79,11 @@
             ><span style="font-size:18px">#BÔNUS 2&nbsp;</span><br><font
               class="klickart-fontSize"
               style="font-size: 24px;"
-            >12 Aulas ao vivo (on line)</font></span></b>
+            >5 Aulas ao vivo (on line)</font></span></b>
             <div>
               <div>
                 <font class="klickart-font klickart-fontSize" style="color: rgb(74, 55, 76); font-size: 19px;">
-                  12 Aulas
+                  5 Aulas
                   ao vivo na comunidade exclusiva
                 </font><br>
                 <div><b class="medium-b"><span style="color:#d7395e"><br></span></b></div>
@@ -116,7 +116,7 @@
                   <span style="color:#d7395e"><font
                     class="klickart-fontSize klickart-font"
                     style="font-size: 20px; color: rgb(215, 57, 94);"
-                  >12 Clases ao vivo (on-line)</font></span><b
+                  >5 Clases ao vivo (on-line)</font></span><b
                     class="medium-b"
                   ><span style="color:#d7395e"><br></span></b><span style="color:#d7395e"><font
                     class="klickart-fontSize klickart-font"
@@ -124,7 +124,7 @@
                   ><font
                     class="klickart-fontSize"
                     style="font-size: 19px;"
-                  >12 Classes en vivo en la Comunidad exclus</font>iva</font></span>
+                  >5 Classes en vivo en la Comunidad exclus</font>iva</font></span>
                 </div>
               </div>
             </div>
@@ -160,7 +160,7 @@
                 <b style=""><i class="medium-i" style=""><font
                   class="klickart-fontSize"
                   style=""
-                ><span style="font-size: 17px;">12 Live classes (online)</span></font></i></b>
+                ><span style="font-size: 17px;">5 Live classes (online)</span></font></i></b>
               </font>
             </div>
             <div>
@@ -168,7 +168,7 @@
                 <i class="medium-i"><font
                   class="klickart-fontSize klickart-lineHeight"
                   style="font-size: 17px; line-height: 18.6px;"
-                >12 Lessons
+                >5 Lessons
                   live in the exclusive community</font></i>
               </font>
             </div>

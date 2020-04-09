@@ -117,7 +117,7 @@ export default {
   props: {
     until: {
       type: String,
-      default: 'November 18, 2019 23:59:59'
+      default: 'April 13, 2020 23:59:59'
     },
     expiredText: { default: 'Now Expired' }
   },
