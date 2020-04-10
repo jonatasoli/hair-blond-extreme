@@ -39,12 +39,12 @@
       <img alt="visa" src="~/assets/img/creditcard/visa.png">
     </div>
 
-    <p>Um conteúdo super especial por apenas R$ 297,00 em até 12 x R$ 28,94</p>
+    <p>Um conteúdo super especial por apenas R$ 397,00 em até 12 x R$ 38,68</p>
     <p class="p__espanhol">
-      Un contenido super especial por sólo R$ 297,00 hasta 12 x R$ 28,94
+      Un contenido super especial por sólo R$ 397,00 hasta 12 x R$ 38,68
     </p>
     <p class="p__english">
-      Payment Methods: Super special content for only $ 297,00 up to 12 x $ 28,94
+      Payment Methods: Super special content for only $ 397,00 up to 12 x $ 38,68
     </p>
   </header>
 </template>
