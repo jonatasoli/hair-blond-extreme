@@ -55,7 +55,7 @@ export default {
   name: 'Header',
   methods: {
     redirectSales () {
-      window.location = 'https://pay.hotmart.com/R11503126C'
+      window.location = 'https://payment.hotmart.com/R11503126C?checkoutMode=10'
     }
   }
 }
